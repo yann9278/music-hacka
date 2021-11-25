@@ -67,7 +67,7 @@ function Vocal() {
 
       <p id="transcript">Transcript: {transcript}</p>
 
-      <button onClick={SpeechRecognition.startListening}>Start</button>
+      <button className="micro" onClick={SpeechRecognition.startListening}>Start</button>
     </div>
   );
 }
