@@ -28,11 +28,11 @@ function Home() {
       <form>
           <label rechercher>Artiste, chanson</label>
           <input type="text" id ="id" name="search" placeholder="Artiste ou titre" />
-      <button className="homeButton" >
-      Go
+      <button className="homeButton" > 
+      <Link to="/Video" className="homeButton" > Go </ Link> 
       </button>
       <button>
-      <Link to="/Video" className="homeButton" > Listen to the radio </ Link> 
+      <Link to="/Radio" className="homeButton" > Listen to the radio </ Link> 
       </button>
     </form>
    </div>

@@ -4,6 +4,7 @@ import VideoLyrics from "./components/Video-lyric";
 import { Route, Routes } from 'react-router-dom';
 
 import Home from './components/Home';
+import Radio from './components/Radio';
 
 
 
@@ -14,7 +15,7 @@ function App() {
     <Routes>
     <Route exact path='/' element={<Home /> }></Route>
     <Route path='/Video' element={< VideoLyrics />}></Route>
-    {/* <Route path='/Radio' element={< Radio />}></Route> */}
+    <Route path='/Radio' element={< Radio />}></Route>
     </Routes> 
      
     </div>
