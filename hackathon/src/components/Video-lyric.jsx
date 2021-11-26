@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 import axios from 'axios';
 
 import Lyrics from "./Lyrics";
@@ -16,20 +16,25 @@ function VideoLyrics() {
 
   const getVideo = () => {
     axios
-    .get(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=${name} ${song}&chart=mostPopular&maxResults=15&key=AIzaSyCS8NAqiDUdXiBNrOtYQBL5t399jNZSHvc`)
+    .get(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=${name} ${song}&chart=mostPopular&maxResults=15&key=AIzaSyCaZ1559cmm13NCi4J9uhKytgJOkq5zs7o`)
     .then((response) => response.data)
     .then((data) => {
       console.log(data);
       setVideos(data.items);
     });
+
+  };
+  useEffect(()=> {
+    if(videos.length){
       const index = Math.floor(Math.random() * 15)
-      console.log(index);
+      console.log(videos);
       if(!videos[index].id.videoId) {
           getVideo()
       } else {
     setVideoId(videos[index].id.videoId);
       }
-  };
+    }
+  },[videos])
     
   return (
       <div>
