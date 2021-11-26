@@ -1,13 +1,16 @@
 import React from "react";
 
+import Vocal from './components/Vocal';
+import VideoLyrics from "./components/Video-lyric";
+
 
 import './App.css';
-import VideoLyrics from "./components/Video-lyric";
 
 function App() {
   return (
     <div className="App">
-< VideoLyrics />
+      <Vocal />
+      <VideoLyrics />
     </div>
   );
 }

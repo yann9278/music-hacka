@@ -1,0 +1,34 @@
+body {
+    background: linear-gradient(to right, rgb(126, 203, 206), rgba(14, 93, 102, 0.823));
+}
+
+.Vocal {
+    margin: 1rem auto 3rem;
+}
+
+#transcript {
+}
+
+.button-talking{
+    background-image: url(../img/say.png);
+    background-size: cover;
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+    margin-top: 5vh;
+
+}
+#transcript-text {
+    padding-top: 4px;
+}
+
+/* #links{
+    display: flex;
+    justify-content: space-around;
+}
+#links a {
+    margin-right: 4rem;
+    text-decoration: none;
+    color: black;
+
+} */
