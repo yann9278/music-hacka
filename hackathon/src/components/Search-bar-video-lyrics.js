@@ -3,13 +3,14 @@ import React from 'react';
 
 import './Search-bar-video-lyrics.css';
 
-function SearchBar({ setName, setSong ,name, song }) {
+function SearchBar({ setName, setSong ,name, song, getVideo }) {
     // const [name, setName] = useState('');
     // const [song, setSong] = useState('');
 
     const display = (e) => {
         e.preventDefault();
-        console.log(`name: ${name} and email:${song}`)
+        getVideo()
+        console.log(`name: ${name} and song:${song}`)
     }
     return (
       <div className="search-bar-box">

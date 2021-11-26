@@ -44,6 +44,7 @@ h3 {
   font-weight: bold;
   width: 20%;
   border-radius: 5px;
+  margin-bottom: 15px;
 }
 
 .nolyrics {
@@ -55,4 +56,22 @@ color: #e7872d;
 font-weight: bold;
 width: 30%;
 border-radius: 5px;
+}
+
+@media screen and (min-width: 255px) {
+  .lyrics {
+width: 80%;
+  }
+  .lyrics-button {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 475px) {
+  .lyrics {
+width: 50%;
+  }
+  .lyrics-button {
+    width: 20%;
+  }
 }

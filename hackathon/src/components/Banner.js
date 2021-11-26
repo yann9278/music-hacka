@@ -9,9 +9,9 @@ function Banner() {
         <h2 className="text">Wanna see the official music video?</h2>
         <h3 className="text">Go through the lyrics?</h3>
         </div>
-        <div className="paragraph">
+        {/* <div className="paragraph">
             <p>????</p>
-        </div>
+        </div> */}
         </div>
     );
 }
