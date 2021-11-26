@@ -1,0 +1,35 @@
+.search-bar-box {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#e7872d;
+font-weight: bolder;
+}
+
+input {
+border: #e7872d;
+border-radius: 5px;
+border-style: solid;
+margin-bottom: 5px;
+margin-left: 8px;
+}
+
+input[type=text]:focus {
+    outline: 2px solid orange;  
+  }
+
+::placeholder {
+    color: #e7872d;
+    padding: 20px;
+    align-items: center;
+
+}
+#song {
+    align-items: center;
+}
+.butotn-search{
+    background-color: #e7872d;
+    padding: 8px;
+    border-radius: 5px;
+}
