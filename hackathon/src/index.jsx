@@ -1,14 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import Vocal from "./components/Vocal";
+import App from "./App";
 
 import "./index.css";
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
   <React.StrictMode>
-    <Vocal />
+    <App />
   </React.StrictMode>,
   rootElement
 );
