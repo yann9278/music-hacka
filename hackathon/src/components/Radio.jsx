@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { RadioBrowserApi } from "radio-browser-api";
 import AudioPlayer from "react-h5-audio-player";
 
-import defaultImage from "./../img/radio.jpg";
+import defaultImage from "../img/radio.jpg";
 
 import "react-h5-audio-player/lib/styles.css";
 import './radio.scss';

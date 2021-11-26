@@ -4,13 +4,17 @@ import reportWebVitals from './reportWebVitals';
 
 import App from './App';
 
-import './index.css';
+import './index.scss';
 
+
+const rootElement = document.getElementById("root");
 ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
-  document.getElementById('root')
-);
-
-reportWebVitals();
+  document.getElementById('root'),
+  
+  reportWebVitals(),
+  rootElement
+  );
+  

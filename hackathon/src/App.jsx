@@ -1,11 +1,17 @@
 import React from 'react';
 import Radio from './components/Radio';
 
-import './App.css';
+
+import Vocal from "./components/Vocal";
+
+
+
+import './App.scss';
 
 function App() {
   return (
     <div className="App">
+          <Vocal />
       <Radio />
     </div>
   );
