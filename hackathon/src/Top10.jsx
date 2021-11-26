@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-import './Top10List.css';
+import './Top10List';
 
 function Top10({title, name, image}) {
     const[displayVideo, setDisplayVideo] = useState(false);

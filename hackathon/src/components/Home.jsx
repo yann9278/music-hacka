@@ -1,5 +1,7 @@
 import React from 'react'
 import Top10List from '../Top10List';
+import { Link } from 'react-router-dom';
+
 
 import './Home.css';
 
@@ -28,6 +30,9 @@ function Home() {
           <input type="text" id ="id" name="search" placeholder="Artiste ou titre" />
       <button className="homeButton" >
       Go
+      </button>
+      <button>
+      <Link to="/Video" className="homeButton" > Listen to the radio </ Link> 
       </button>
     </form>
    </div>
