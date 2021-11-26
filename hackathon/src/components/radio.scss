@@ -170,12 +170,13 @@ audio {
 @media screen and (max-width: 640px) {
   .stations {
     display: block;
-    width: 70%;
+    width: 90%;
     margin-right: auto;
     margin-left: auto;
   }
 
-  .radio{
+  .radio-container{
     text-align: center;
+    background: linear-gradient(to right, rgb(14, 176, 182), rgba(14, 93, 102, 0.823));
   }
 }

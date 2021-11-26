@@ -9,6 +9,8 @@
   }
   .Home {
     background: linear-gradient(to right, rgb(126, 203, 206), rgba(14, 93, 102, 0.823));
+    width: 100vw;
+    min-width: 430px;
   }
 
 
@@ -18,21 +20,23 @@
     text-align: center;
     padding-top: 50%;
     margin-bottom: 20%;
-    
-    
-       
   }
   
   .homeText {
     display: flex;
     font-family: 'Stencil Std, fantasy';
     font-size:x-large;
-    color: rgb(224, 205, 28);
+    color: rgb(251, 227, 10);
     justify-content: center;
     align-items: center;
-    margin-top: 5vh;
-
+    margin-top: 3vh;
+    margin-bottom: 1.5vh;
   }
+
+.title-music{
+  font-size: 2rem;
+}
+
 
   .homeContainer {
     display: block;
@@ -43,17 +47,34 @@
     border-radius: 30px;
     font-style: italic;
     font-size: bolder;
-   
+}
+.homeContainer input{
+  background-color: black;
+  opacity: .5;
+  border: black;
+  height: 1.5rem;
 }
 
-    .homeButton {
-    display: block;
-    margin: auto;
-    margin-top: 7vh;
-    position: relative;
-    overflow: hidden;
-    border-radius: 30px;
-    font-family: 'Courier New', Courier, monospace;
-    font-style:unset;
+  .homeButton {
+    text-decoration: none;
+    color: white;
+}
 
-  }
+
+
+
+.homeBtn{
+  display: block;
+  margin: 1rem auto;
+  /* margin-top: 7vh; */
+  position: relative;
+  overflow: hidden;
+  border-radius: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  font-style:unset;
+  width: 9rem;
+  height: 2rem;
+  background-color:#2E2E66;
+  color:white;
+}
+

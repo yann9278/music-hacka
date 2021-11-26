@@ -17,7 +17,7 @@ function Home() {
      <div className="Home">
 
      <div className="homeTitle">
-        <h1>Music for life</h1>
+        <p className="title-music">Nothing but Music</p>
     </div>
     <div className="homeText">
       <p>let's play the music </p>
@@ -26,12 +26,12 @@ function Home() {
     <div className="homeContainer">
       <title>Rechercher</title>
       <form>
-          <label rechercher>Artiste, chanson</label>
-          <input type="text" id ="id" name="search" placeholder="Artiste ou titre" />
-      <button className="homeButton" > 
-      <Link to="/Video" className="homeButton" > Go </ Link> 
+          {/* <label rechercher>Artiste, chanson</label> */}
+          {/* <input type="text" id ="id" name="search" placeholder="Artiste ou titre" /> */}
+      <button  className="homeBtn" > 
+      <Link to="/Video" className="homeButton" > Search for Songs </ Link> 
       </button>
-      <button>
+      <button className="homeBtn">
       <Link to="/Radio" className="homeButton" > Listen to the radio </ Link> 
       </button>
     </form>

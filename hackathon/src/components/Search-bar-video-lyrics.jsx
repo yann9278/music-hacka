@@ -26,7 +26,7 @@ function SearchBar({ setName, setSong ,name, song, getVideo }) {
         />
       </label>
       <br />
-      <label className="song" htmlFor="song">
+      <label className="songg" htmlFor="song">
         Song
         <input
           value={song}

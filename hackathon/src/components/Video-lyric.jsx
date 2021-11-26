@@ -6,6 +6,8 @@ import SearchBar from "./Search-bar-video-lyrics";
 import Video from "./Video";
 import Banner from "./Banner";
 
+import './video-style.css';
+
 const sampleVideo = "cYX-JMW7GkM";
 
 function VideoLyrics() {
@@ -37,7 +39,7 @@ function VideoLyrics() {
   },[videos])
     
   return (
-      <div>
+      <div className="video-container">
     <Banner/>
     <SearchBar setSong={setSong} setName={setName} name={name} song={song} getVideo={getVideo} videoId={videoId} />
     <Video name={name} song={song} getVideo={getVideo} videoId={videoId} />

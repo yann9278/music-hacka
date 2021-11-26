@@ -20,6 +20,7 @@ justify-content: space-around;
  
 }
 
+
 .body{
     display:flex;
     justify-content: space-between;
@@ -30,10 +31,15 @@ justify-content: space-around;
 .ShowVideo {
     text-decoration: none;
     color:white;
+    padding: 0.8rem;
+    background-color:rgb(15, 70, 147);
+    border-radius:30px;
 }
 
 .Title{
     color:rgb(46, 46, 102);
+    margin: 1.5rem auto 1rem;
+
 }
 
 .containersong{

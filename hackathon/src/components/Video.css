@@ -1,11 +1,12 @@
 .button-video  {
     padding: 10px;
     border-radius: 5px;
-    background-color:#e7872d;
+    background-color:rgb(15, 70, 147);
     margin-top: 35px;
     color: black;
-    border-color: hsl(36, 77%, 58%);
+    border-color: rgb(15, 70, 147);
     font-size: 80%;
     margin-bottom: 25px;
     font-weight: bolder;
+    color: white;
   }

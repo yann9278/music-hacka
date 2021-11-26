@@ -53,7 +53,7 @@ function Radio() {
   };
 
   return (
-    <div className="radio">
+    <div className="radio-container">
       {/* <div className="filters">
         {filters.map((filter) => (
           <span
