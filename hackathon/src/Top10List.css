@@ -35,3 +35,10 @@ justify-content: space-around;
 .Title{
     color:rgb(46, 46, 102);
 }
+
+.containersong{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
