@@ -10,7 +10,7 @@ export default function Top10List() {
    
 
 useEffect(() => {
-    axios.get(`https://cors-bypass.tkzprod.dev/api.deezer.com/search?q=one&limit=5}`).then((res) => {
+    axios.get(`https://cors-bypass.tkzprod.dev/api.deezer.com/search?q=edsheeran&limit=5}`).then((res) => {
     setSong(res.data.data);
 
 } )
@@ -20,7 +20,7 @@ useEffect(() => {
 
 return (
     <section className="containersong">
-        <h2 className="Title"> Top 5 songs </h2>
+        <h2 className="Title"> Songs of Ed Sheeran </h2>
         {song.map((songs, index) => {
             return <Top10 className="song" key={index} id={songs.id} title={songs.title} image={songs.artist.picture_small} />
         })}
