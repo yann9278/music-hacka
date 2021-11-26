@@ -1,0 +1,58 @@
+.lyric-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lyrics-button {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 5px;
+    border-style: solid;
+    border-color:#e7872d;
+    margin-bottom: 20px;
+    width: 30%;
+    border-radius: 5px;
+  }
+
+h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 5px;
+    color: #e7872d;
+    margin-left: 8px;
+    border-radius: 5px;
+  }
+.display-lyrics {
+    border: 0px;
+    background-color: white;
+    color: #e7872d;
+    font-size: 250%;
+    margin-right: 10px;
+
+  }
+  .contactbutton:hover {
+    font-weight: bold;
+  }
+
+.lyrics {
+  padding: 20px;
+  border-style: solid;
+  border-color: #e7872d;
+  color: #e7872d;
+  font-weight: bold;
+  width: 20%;
+  border-radius: 5px;
+}
+
+.nolyrics {
+display: none;
+padding: 20px;
+border-style: solid;
+border-color: #e7872d;
+color: #e7872d;
+font-weight: bold;
+width: 30%;
+border-radius: 5px;
+}
