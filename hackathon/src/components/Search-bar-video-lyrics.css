@@ -3,12 +3,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    color:#e7872d;
+    color:white;
 font-weight: bolder;
 }
 
 input {
-border: #e7872d;
+border: white;
 border-radius: 5px;
 border-style: solid;
 margin-bottom: 5px;
@@ -20,7 +20,7 @@ input[type=text]:focus {
   }
 
 ::placeholder {
-    color: #e7872d;
+    color: white;
     padding: 20px;
     align-items: center;
 

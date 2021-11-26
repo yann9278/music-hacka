@@ -1,25 +1,22 @@
-<<<<<<< HEAD
-import React from 'react';
-import Radio from './components/Radio';
-
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <Radio />
-=======
 import React from "react";
 
+import VideoLyrics from "./components/Video-lyric";
+import { Route, Routes } from 'react-router-dom';
+
+import Home from './components/Home';
 import './App.css';
 
-import VideoLyrics from "./components/Video-lyric";
+
 
 function App() {
   return (
     <div className="App">
-< VideoLyrics />
->>>>>>> 1a20412fc70f5fc172e8e49b353106de974826d4
+
+    <Routes>
+    <Route exact path='/' element={<Home /> }></Route>
+    <Route path='/Video' element={< VideoLyrics />}></Route>
+    </Routes> 
+     
     </div>
   );
 }
