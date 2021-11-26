@@ -6,7 +6,7 @@ import SongLyric from './song-lyric-card';
 import './Lyrics.css';
 
 const holderLyric = {
-    lyrics: 'Please type both Artist and Song'
+    lyrics: 'Please insert both Artist and Song'
 }
 
 function Lyrics({song, name}) {
