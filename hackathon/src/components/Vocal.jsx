@@ -15,7 +15,6 @@ import './vocal.css';
 
 
 function Vocal() {
-  const[transcriptt, setTranscriptt] = useState();
   const commands = [
     {
       command: ["Go to * page", "Go to *", "Open * page", "Open *"],
@@ -47,10 +46,10 @@ function Vocal() {
     }
   }
 
-  const handleTanscript = (e) => {
-    setTranscriptt(e.target.value);
-  }
-  console.log(transcriptt)
+  // const handleTanscript = (e) => {
+  //   setTranscript(e.target.value);
+  // }
+  // console.log(transcript)
 return (
     <div className="Vocal">
       {/* <BrowserRouter>
@@ -77,8 +76,8 @@ return (
           type="text" 
           id="transcript-text" 
           placeholder="Say or Write something"
-          value={transcriptt}
-          onChange = {handleTanscript}
+          value={transcript}
+          /*onChange = {handleTanscript}*/
         />
       </p>
     </div>
