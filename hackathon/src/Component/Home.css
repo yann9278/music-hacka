@@ -1,0 +1,54 @@
+
+/*home style mobile*/
+* {
+    background-color: black;    
+    color: rgb(252, 252, 66);
+   
+  }
+
+  .HomeTitle {
+    font-family: 'Stencil Std, fantasy';
+    font-weight: bold;
+    text-align: center;
+    padding-top: 50%;
+    margin-bottom: 20%;
+    
+    
+       
+  }
+  
+  .homeText {
+    display: flex;
+    font-family: 'Stencil Std, fantasy';
+    font-size:x-large;
+    color: rgb(224, 205, 28);
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+
+  }
+
+  .homeContainer {
+    display: block;
+    margin: auto;
+    padding: 10px 70px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 30px;
+    font-style: italic;
+    font-size: bolder;
+   
+}
+
+    .homeButton {
+    display: block;
+    margin: auto;
+    margin-top: 7vh;
+    padding: 10px 70px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style:unset;
+
+  }
