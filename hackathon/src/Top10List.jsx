@@ -2,6 +2,7 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import Top10 from './Top10';
+import './Top10List.css';
 
 
 export default function Top10List() {
@@ -9,7 +10,7 @@ export default function Top10List() {
    
 
 useEffect(() => {
-    axios.get(`https://cors-bypass.tkzprod.dev/api.deezer.com/search?q=one}`).then((res) => {
+    axios.get(`https://cors-bypass.tkzprod.dev/api.deezer.com/search?q=one&limit=5}`).then((res) => {
     setSong(res.data.data);
 
 } )
@@ -18,10 +19,10 @@ useEffect(() => {
 
 
 return (
-    <section>
-        <h2> Songs </h2>
+    <section className="containersong">
+        <h2 className="Title"> Top 5 songs </h2>
         {song.map((songs, index) => {
-            return <Top10 key={index} id={songs.id} title={songs.title} image={songs.artist.picture_small} />
+            return <Top10 className="song" key={index} id={songs.id} title={songs.title} image={songs.artist.picture_small} />
         })}
     </section>
 

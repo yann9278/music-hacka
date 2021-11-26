@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-
+import './Top10List.css';
 
 function Top10({title, name, image}) {
     const[displayVideo, setDisplayVideo] = useState(false);
@@ -12,9 +12,10 @@ function Top10({title, name, image}) {
 
         return(
         <div className="song">
+             <img src={image} alt="cover" />
         <p className="title"> {title} </p>
          <p className="singer"> {name} </p>
-        <img src={image} alt="cover" />
+       
         <Link to="/Video" className="ShowVideo" onClick={handleClick}> Show video </ Link> 
         </div>
         )
